@@ -8,7 +8,7 @@ export const environment = {
   error: {
     "INVALID_DETAILS": "Invalid Details",
   },
-  url: 'http://localhost:8080/api',
+  url: 'http://localhost:8081/api',
   // url: 'https://casadecor.online/cm/api'
 };
 
