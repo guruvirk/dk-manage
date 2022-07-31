@@ -3,6 +3,6 @@ export const environment = {
   error: {
     "INVALID_DETAILS": "Invalid Details"
   },
-  tenant: "cm",
-  url: 'https://casadecor.online/cm/api'
+  tenant: "dk",
+  url: 'https://casadecor.online/dk/api'
 };

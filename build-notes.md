@@ -1,6 +1,6 @@
 ## Build Command
 
-> ng build --prod
+> ng build --prod --base-href "https://guruvirk.github.io/dk-manage/"
 
 ## Deploy Command
 

@@ -21,7 +21,7 @@
                 <h5><b>Name : </b>{{order.name}}</h5>
             </div>
             <div class="col-md-6 auto">
-                <h5><b>Created On : </b>{{(order.createdOn || order.date) | date}}</h5>
+                <h5><b>Created On : </b>{{order.createdOn | date}}</h5>
             </div>
             <div class="col-md-6 auto">
                 <h6><b>Phone : </b>0{{order.phone}}</h6>
@@ -69,11 +69,11 @@
 <div *ngIf="order" style="visibility: hidden;" id="page">
     <div style="margin-top: 20px; width: 100%; text-align: center;">
         <div style="padding: 5px; text-align: center;">
-            <h3><b>Comfort Movers Order Details - {{order.code}}</b></h3>
+            <h3><b>Dirt Killer Order Details - {{order.code}}</b></h3>
             <div style="width: 100%;height: 260px;border-top: 2px solid black;padding-top: 10px;">
                 <div style="float: left;width: 45%;">
                     <h6><b>Name : </b>{{order.name}}</h6>
-                    <h5><b>{{order.date | date}} {{order.timeslot}}</b></h5>
+                    <h5><b>{{order.createdOn | date}}</b></h5>
                     <h6><b>Email : </b>{{order.email}}</h6>
                     <h6><b>Service : </b>{{order.service}}</h6>
                     <h6><b>Address : </b>{{order.address}}</h6>
